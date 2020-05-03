@@ -67,12 +67,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ba-hero {
-    min-height: 500px;
+    min-height: 100vh;;
     background-color: #cfcfd0;
     background-image: url(../images/hero.jpg);
     background-size: cover;
     text-align: center;
-    padding: 262px 0 100px;
+    padding: 200px 0 100px;
     font-family: Montserrat, sans-serif;
 }
 
@@ -409,5 +409,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .ba-menu {
         flex-direction: row;
+    }
+}
+
+@media (min-height: 900px) {
+    .ba-hero {
+        min-height: 500px;
+        padding: 268px 0 100px;
     }
 }
